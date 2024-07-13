@@ -1,0 +1,84 @@
+.exercise-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #e5b968;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  }
+  
+  .exercise-heading {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .loading-message {
+    font-size: 18px;
+    color: #007bff; /* Blue color for loading message */
+  }
+  
+  .error-message {
+    font-size: 18px;
+    color: #dc3545; /* Red color for error message */
+    margin-bottom: 20px;
+  }
+  
+  .question-container {
+    margin-bottom: 20px;
+  }
+  
+  .question-text {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .options-list {
+    list-style-type: none;
+    margin-top: 10px;
+    padding: 0;
+  }
+  
+  .option-item {
+    margin-bottom: 10px;
+  }
+  
+  .option-label {
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .submit-button {
+    display: block;
+    width: 150px;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: #28a745; /* Green color for submit button */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .submit-button:hover {
+    background-color: #218838; /* Darker shade of green on hover */
+  }
+  
+  .navigation-button {
+    display: inline-block;
+    margin-right: 10px;
+    padding: 10px;
+    background-color: #007bff; /* Blue color for navigation buttons */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .navigation-button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  

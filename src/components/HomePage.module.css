@@ -1,0 +1,49 @@
+/* HomePage.module.css */
+
+.container {
+    background-image: url('./mern image.png');
+    background-size: cover;
+    background-position: center;
+    height: 100vh; /* Adjust height as needed */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #333;
+}
+
+.title {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.cartcontainer {
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Shadow effect */
+}
+
+.cartcontainer p {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.cartcontainer button {
+    background-color: #007bff; /* Bootstrap blue */
+    color: white;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-right: 1rem;
+}
+
+.cartcontainer button:hover {
+    background-color: #0056b3; /* Darker shade of blue on hover */
+}
+
+.cartcontainer button:last-child {
+    margin-right: 0;
+}

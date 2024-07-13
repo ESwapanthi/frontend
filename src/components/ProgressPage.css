@@ -1,0 +1,43 @@
+.progress-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #6ceded;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  }
+  
+  .progress-heading {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .progress-info {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .progress-feedback {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  .progress-button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .progress-button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
