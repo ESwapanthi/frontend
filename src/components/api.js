@@ -2,6 +2,8 @@ import axios from 'axios';
 
 const API = axios.create({
   baseURL: 'https://backend-2-2tdm.onrender.com/api'
+  await axios.post('https://backend-2-2tdm.onrender.com/api/signup', { name, username, phone, email, password });
+
 });
 export const login = (userData) => API.post('/auth/login', userData)
   .then(response => response.data)
