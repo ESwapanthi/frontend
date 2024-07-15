@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/static/css/main.7959b8d4.css",
+    "main.js": "/static/js/main.67792816.js",
+    "static/media/mern image.png": "/static/media/mern image.9333b94140eca3e88e7f.png",
+    "index.html": "/index.html",
+    "main.7959b8d4.css.map": "/static/css/main.7959b8d4.css.map",
+    "main.67792816.js.map": "/static/js/main.67792816.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7959b8d4.css",
+    "static/js/main.67792816.js"
+  ]
+}
